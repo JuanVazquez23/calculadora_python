@@ -18,6 +18,15 @@ def resta(n, m):
     return n - m
 
 
+def division(numero1, numero2):
+    try:
+        numero = numero1/numero2
+    except ZeroDivisionError:
+        print("intentaste dividir por 0")
+
+    return numero
+
+
 try:
     num1 = int(input('Dame un numero: '))
     num2 = int(input('Dame otro numero: '))
@@ -38,15 +47,6 @@ match operacion:
     case 'potencia':
         potencia(num1, num2)
     case 'raiz':
-        raiz(num1, num2)
+        raizCuadrada(num1)
     case other:
         print('No conozco esa operacion :(')
-
-
-def division(numero1, numero2):
-    try:
-        numero = numero1/numero2
-    except ZeroDivisionError:
-        print("intentaste dividir por 0")
-
-    return numero
