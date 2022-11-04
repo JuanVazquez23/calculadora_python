@@ -5,6 +5,10 @@ def raizCuadrada(numero):
     return math.sqrt(numero)
 
 
+def multiplicacion(num1, num2):
+    return num1 * num2
+
+
 def resta(n, m):
     return n - m
 
