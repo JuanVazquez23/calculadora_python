@@ -5,6 +5,10 @@ def raizCuadrada(numero):
     return math.sqrt(numero)
 
 
+def resta(n, m):
+    return n - m
+
+
 try:
     num1 = int(input('Dame un numero: '))
     num2 = int(input('Dame otro numero: '))
@@ -28,7 +32,3 @@ match operacion:
         raiz(num1, num2)
     case other:
         print('No conozco esa operacion :(')
-
-
-def resta(n, m):
-    return n - m
