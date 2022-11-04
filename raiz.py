@@ -28,3 +28,7 @@ match operacion:
         raiz(num1, num2)
     case other:
         print('No conozco esa operacion :(')
+
+
+def resta(n, m):
+    return n - m
